@@ -1,0 +1,86 @@
+*, *:before, *::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif , Arial;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    background-image: url(img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    background-color: #333a40;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items-right{
+    display: flex;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.menu-items-right li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu-items-right li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.menu-items-right li:hover, li.active {
+    background-color: #fec106;
+}
+
+
+.menu-items-left{
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+}
+
+.menu-items-left li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu-items-left li a{
+    padding: 7px 7px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    color: white;
+}
+
+.menu-items-left li:hover, li.active {
+    background-color: #fec106;
+}
+
+.imagen {
+    justify-content: right;
+    text-align: right;
+    margin-right: 8rem;
+    margin-top: 20rem;
+}
+
+.imagen button{
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    color: white;
+}
